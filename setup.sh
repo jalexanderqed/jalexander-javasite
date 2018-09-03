@@ -10,4 +10,4 @@ sudo apt-get install -y nodejs
 
 sudo npm install -g npm
 
-printf "\n\nAdd\niptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080\nto /etc/rc.local\n"
+printf "\n\nAdd\niptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to 8080\nto /etc/rc.local\n"
