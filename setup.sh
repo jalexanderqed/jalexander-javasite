@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get update
+
 sudo apt-get install -y default-jdk maven tmux emacs
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
