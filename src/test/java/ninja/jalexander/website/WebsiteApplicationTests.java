@@ -1,4 +1,4 @@
-package ninja.example.website;
+package ninja.jalexander.website;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

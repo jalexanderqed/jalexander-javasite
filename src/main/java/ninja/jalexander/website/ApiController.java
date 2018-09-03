@@ -1,4 +1,4 @@
-package ninja.example.website;
+package ninja.jalexander.website;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package ninja.example.website;
+package ninja.jalexander.website;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

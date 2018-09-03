@@ -1,4 +1,5 @@
 import React from 'react';
+import "../Main.css";
 import CreateReactClass from "create-react-class";
 import MainTitle from './MainTitle';
 import MainMenu from './MainMenu';
