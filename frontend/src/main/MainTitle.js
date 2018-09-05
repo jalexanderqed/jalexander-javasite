@@ -1,12 +1,11 @@
-import React from 'react';
-import CreateReactClass from "create-react-class";
+import React, {Component} from "react";
 
-var MainTitle = CreateReactClass({
-    render: function () {
+class MainTitle extends Component {
+    render() {
         return (
             <h1 id="mainTitle">Jack Alexander</h1>
         );
     }
-});
+}
 
 export default MainTitle;
