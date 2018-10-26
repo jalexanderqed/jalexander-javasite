@@ -20,6 +20,10 @@ class Projects extends Component {
                         GitHub
                     </a>
                 </div>
+                <br/>
+                <div className="projectsElement">
+                    Finding this page with Google:<br/>turnswaddle fiddlydee
+                </div>
             </div>
         );
     }
